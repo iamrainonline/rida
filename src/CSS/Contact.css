@@ -1,0 +1,84 @@
+body {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+}
+
+.contact-container {
+   display: flex;
+   justify-content: space-around;
+   margin: 50px auto;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.contact-info {
+   background: url("../components/image1-min.jpeg");
+   background-position: center;
+}
+.contact-info,
+.contact-form {
+   flex: 1;
+   padding: 20px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+.contact-info p {
+   color: #666;
+   margin-bottom: 10px;
+}
+
+.contact-form form {
+   display: grid;
+   gap: 20px;
+}
+.address {
+   background-color: rgba(7, 7, 7, 0.322);
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+   color: white !important;
+   padding: 20px;
+}
+.address p {
+   color: white;
+   font-size: 20px;
+}
+label {
+   font-weight: bold;
+   color: #333;
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+button {
+   background-color: #fdfdfd;
+   color: #080808;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   transition: 0.5s all;
+   border: 1px solid black;
+}
+
+button:hover {
+   background-color: #1b212a;
+   color: white;
+   transform: translateY(-5px);
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

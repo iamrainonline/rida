@@ -17,6 +17,7 @@ const Proiecte = () => {
 
    return (
       <div className="proiecte">
+         <h1 className="title">Arhitectură de Interior</h1>
          <div className="proiecte_wrapper" data-aos="fade-right">
             {data?.map((item, idx) => (
                <div key={item.id}>

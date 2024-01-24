@@ -40,9 +40,10 @@ body {
 }
 .address {
    background-color: rgba(7, 7, 7, 0.322);
+   background-color: #1b212a;
    height: 100%;
    align-items: center;
-   justify-content: center;
+   justify-content: space-between;
    color: white !important;
    padding: 20px;
 }

@@ -17,7 +17,7 @@ const Navbar = () => {
                </div>
                <div className="links">
                   <Link className="link" to="/">
-                     ACASA
+                     ACASĂ
                   </Link>
                   <Link className="link" to="/">
                      PROIECTE

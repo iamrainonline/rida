@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import data from "../utils/data";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -38,7 +38,6 @@ const Proiecte = () => {
                }}
             >
                <div className="descriere">
-                  <h1 className="descriere_titlu">{myData[currNum].name}</h1>
                   <p className="descriere_text">{myData[currNum].text}</p>
                </div>
             </div>

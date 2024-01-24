@@ -47,7 +47,7 @@ const Proiecte = () => {
                }}
             >
                <div className="descriere">
-                  <h1>{myData[currNum].name}</h1>
+                  <h1 id="test123">{myData[currNum].name}</h1>
                   <p className="descriere_text">{myData[currNum].text}</p>
                   <p className="descriere_text">
                      <Button />

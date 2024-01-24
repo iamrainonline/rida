@@ -1,0 +1,36 @@
+/* Footer.css */
+
+.footer {
+   background-color: #f4f4f4;
+   color: #333;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   text-align: left;
+   overflow: hidden;
+}
+.footer img {
+   width: 100%;
+   margin-top: 20px;
+}
+.left-section,
+.right-section {
+   width: 48%; /* Adjust the width as needed */
+   box-sizing: border-box;
+}
+
+.footer h3 {
+   margin-bottom: 10px;
+   color: #000;
+}
+
+.footer p {
+   margin: 0;
+}
+
+.footer .left-section,
+.footer .right-section {
+   font-style: italic;
+   color: #555;
+}

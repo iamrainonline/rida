@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
    createBrowserRouter as Router,
    RouterProvider,
@@ -40,9 +40,15 @@ const router = Router([
 ]);
 
 const App = () => {
+   const [myopacity, setMyopacity] = useState("container");
+
+   setTimeout(() => {
+      setMyopacity("container container_opacity");
+   }, 50);
+
    return (
       <div className="app">
-         <div className="container">
+         <div className={myopacity}>
             <RouterProvider router={router} />
          </div>
       </div>

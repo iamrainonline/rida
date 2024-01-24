@@ -1,7 +1,7 @@
 // Import necessary dependencies
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./ridapng.png";
+import Logo from "./Logo.png";
 import Button from "../ReusableComponents/Button";
 import "../CSS/Navbar.css";
 

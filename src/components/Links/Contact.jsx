@@ -6,7 +6,12 @@ const Contact = () => {
       <div className="contact-container">
          <div className="contact-info">
             <div className="address">
-               <h2>Contact Information</h2>
+               <h2>Informatii Contact</h2>
+               <p>Location: Bucharest, Romania</p>
+               <p>Phone: +40 123 456 789</p>
+               <p>Address: Street Name, Building No.</p>
+               <br />
+               <h2>Despre Noi</h2>
                <p>Location: Bucharest, Romania</p>
                <p>Phone: +40 123 456 789</p>
                <p>Address: Street Name, Building No.</p>

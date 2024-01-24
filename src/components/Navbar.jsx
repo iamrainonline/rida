@@ -1,7 +1,9 @@
+// Import necessary dependencies
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./ridapng.png";
-import { CiSearch } from "react-icons/ci";
+import Button from "../ReusableComponents/Button";
+import "../CSS/Navbar.css";
 
 const Navbar = () => {
    return (
@@ -9,7 +11,9 @@ const Navbar = () => {
          <div className="navbar">
             <div className="navbarWrapper">
                <div className="logo">
-                  <img src={Logo} alt="" />
+                  <Link to="/" className="logo-link">
+                     <img src={Logo} alt="" className="logo-image" />
+                  </Link>
                </div>
                <div className="links">
                   <Link className="link" to="/">
@@ -21,20 +25,9 @@ const Navbar = () => {
                   <Link className="link" to="/about">
                      CONTACT
                   </Link>
-                  <Link className="link" to="/about">
-                     INFO
-                  </Link>
                </div>
-               <div className="login">
-                  <div className="searchBar">
-                     <CiSearch className="search-icon" size={20} />
-                     <input
-                        type="search"
-                        placeholder="Cauta..."
-                        className="search-input"
-                     />
-                  </div>
-               </div>
+               <div className="login"></div>
+               <Button />
             </div>
          </div>
       </div>

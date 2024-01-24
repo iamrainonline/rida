@@ -1,0 +1,116 @@
+.proiecte {
+   border-radius: 1px;
+}
+
+.proiecte_wrapper {
+   display: flex;
+   background-color: rgb(223, 132, 132);
+   justify-content: space-around;
+   padding: 50px 0 50px 0;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.proiect {
+   height: 200px;
+   width: 400px;
+   background-color: rgb(156, 156, 208);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+   color: white;
+   font-size: 24px;
+}
+.proiect_activ {
+   border-bottom: 10px solid red;
+}
+
+.proiect:hover {
+   cursor: pointer;
+}
+
+.proiecte_preview {
+   display: flex;
+   background-color: rgb(223, 132, 132);
+   justify-content: space-around;
+   padding: 50px;
+   border: 4px dashed red;
+   margin-top: 20px;
+   flex-direction: column;
+}
+.proiecte_preview button {
+   transition: all 0.3s;
+   width: 300px;
+   padding: 20px;
+   margin-top: 10px;
+   color: white;
+   background-color: #9c9cd0;
+   border: none;
+   font-size: 18px;
+   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.proiecte_preview button:hover {
+   cursor: pointer;
+   transform: translateY(-5px);
+   transform: scale(1.05);
+   background-color: #8383ca;
+}
+.proiecte_preview button:active {
+   transform: scale(1);
+}
+
+/* DE REZOLVAT IMG BACKGROUND! */
+
+.readmore_wrapper {
+   background-size: cover;
+   background-position: center;
+   min-height: 400px;
+   width: 100%;
+   display: flex;
+   padding: 0 20px; /* Add padding left and right */
+   background-color: #de8383;
+   padding-bottom: 100px;
+}
+
+.readmore {
+   padding: 50px 0; /* Adjust padding top and bottom */
+   border-radius: 30px; /* Add border-radius */
+   flex: 1; /* Make the .readmore div take up all available space */
+   display: flex;
+   background-size: cover;
+   background-position: center;
+   min-height: 400px;
+   width: 100%;
+   display: flex;
+   padding: 0 20px; /* Add padding left and right */
+   background-color: #de8383;
+}
+
+.descriere {
+   background-color: #1b212ac8; /* Example background color with transparency */
+   color: #000; /* Example text color */
+   height: 100%;
+   width: 30%; /* Set width to 30% of its parent */
+   display: flex;
+   flex-direction: column;
+   border-radius: 30px; /* Add border-radius to match .readmore */
+   padding: 30px; /* Add padding for spacing */
+   box-sizing: border-box;
+   text-align: left;
+   gap: 30px;
+}
+.descriere h1 {
+   color: white;
+}
+.descriere_titlu {
+   margin: 30px 0;
+   font-size: 40px;
+   color: white;
+}
+
+.descriere_text {
+   font-size: 18px;
+   line-height: 25px;
+   color: white;
+}

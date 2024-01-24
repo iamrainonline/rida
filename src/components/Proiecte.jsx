@@ -22,6 +22,9 @@ const Proiecte = () => {
                <div key={item.id}>
                   <div>
                      <div
+                        style={{
+                           backgroundImage: `url(/assets/${myData[idx].image})`,
+                        }}
                         className={
                            currNum === idx ? "proiect proiect_activ" : "proiect"
                         }
@@ -29,7 +32,7 @@ const Proiecte = () => {
                            setCurrNum(idx);
                         }}
                      >
-                        {myData[idx].name}
+                        <h1>{myData[idx].name}</h1>
                      </div>
                   </div>
                </div>

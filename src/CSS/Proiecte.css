@@ -1,10 +1,6 @@
-.proiecte {
-   border-radius: 1px;
-}
-
 .proiecte_wrapper {
    display: flex;
-   background-color: rgb(223, 132, 132);
+   background-color: rgb(250, 250, 250);
    justify-content: space-around;
    padding: 50px 0 50px 0;
    flex-wrap: wrap;
@@ -12,18 +8,53 @@
 }
 
 .proiect {
+   transition: all 0.4s;
    height: 200px;
    width: 400px;
-   background-color: rgb(156, 156, 208);
    display: flex;
    align-items: center;
    justify-content: center;
-   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-   color: white;
    font-size: 24px;
+   position: relative;
+   border-radius: 6px;
+   overflow: hidden;
+   background-size: cover;
 }
+
+.proiect h1 {
+   font-size: 30px;
+   padding: 20px;
+   position: relative;
+   z-index: 2;
+   color: white;
+}
+
+.proiect:before {
+   transition: all 0.5s;
+   content: "";
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.597);
+   z-index: 1;
+}
+
+.proiect:hover:before,
+.proiect.proiect_activ:before {
+   background: rgba(0, 0, 0, 0);
+}
+
+.proiect:hover {
+   cursor: pointer;
+}
+
 .proiect_activ {
-   border-bottom: 10px solid red;
+   border-bottom: 20px solid rgb(0, 0, 0);
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: brightness(100%);
 }
 
 .proiect:hover {
@@ -69,13 +100,12 @@
    width: 100%;
    display: flex;
    padding: 0 20px; /* Add padding left and right */
-   background-color: #de8383;
+   background-color: #ffffff;
    padding-bottom: 100px;
 }
 
 .readmore {
    padding: 50px 0; /* Adjust padding top and bottom */
-   border-radius: 30px; /* Add border-radius */
    flex: 1; /* Make the .readmore div take up all available space */
    display: flex;
    background-size: cover;
@@ -94,7 +124,6 @@
    width: 30%; /* Set width to 30% of its parent */
    display: flex;
    flex-direction: column;
-   border-radius: 30px; /* Add border-radius to match .readmore */
    padding: 30px; /* Add padding for spacing */
    box-sizing: border-box;
    text-align: left;

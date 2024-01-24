@@ -37,7 +37,7 @@ const Contact = () => {
                <textarea
                   id="message"
                   name="message"
-                  rows="4"
+                  rows="7"
                   required
                   placeholder="Scrieti un mesaj..."
                ></textarea>

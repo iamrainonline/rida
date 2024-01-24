@@ -10,7 +10,6 @@ import Contact from "./components/Links/Contact";
 import "./App.css";
 // components
 import Main from "./components/Main";
-import Proiecte from "./components/Proiecte";
 
 // Layout
 const Layout = () => {

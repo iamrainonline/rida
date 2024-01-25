@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 import "./Button.css";
 
 const Button = ({ currentProject }) => {
+   const notYet = currentProject ? currentProject : "#";
    return (
       <div>
-         <Link to={`/${currentProject}`} className="cta">
+         <Link to={`/${notYet}`} className="cta">
             <span>Mai mult</span>
             <svg width="13px" height="10px" viewBox="0 0 13 10">
                <path d="M1,5 L11,5"></path>

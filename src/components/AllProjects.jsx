@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import data from "../utils/data";
-import ImageModal from "./ImageModal"; // Import the ImageModal component
+import ImageModal from "./ImageModal";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const AllProjects = () => {
    const [selectedImage, setSelectedImage] = useState(null);
 
@@ -11,11 +13,19 @@ const AllProjects = () => {
    const closeImageModal = () => {
       setSelectedImage(null);
    };
+   useEffect(() => {
+      AOS.init();
+   }, []);
+
    return (
       <div>
          {data?.map((item, key) => {
             return (
-               <div key={key} className="singleProductContainer">
+               <div
+                  key={key}
+                  className="singleProductContainer"
+                  data-aos="fade-right"
+               >
                   <div className="productInfo">
                      <h1 className="dot">{item.id + 1}</h1>
                      <h1>{item.name}</h1>

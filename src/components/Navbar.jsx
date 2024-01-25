@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./Logo.png";
-// import customlogo from "./customlogo.png";
+import Logo2 from "./Logo2.png";
 import Button from "../ReusableComponents/Button";
 import "../CSS/Navbar.css";
 

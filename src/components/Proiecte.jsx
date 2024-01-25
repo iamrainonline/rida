@@ -13,8 +13,6 @@ const Proiecte = () => {
       AOS.init();
    }, []);
 
-   console.log(currNum);
-
    return (
       <div className="proiecte">
          <h1 className="title">Arhitectură de Interior</h1>
@@ -49,9 +47,14 @@ const Proiecte = () => {
                <div className="descriere">
                   <h1 id="test123">{myData[currNum].name}</h1>
                   <p className="descriere_text">{myData[currNum].text}</p>
-                  <p className="descriere_text">
-                     <Button />
-                  </p>
+                  <div className="descriere_text">
+                     <Button
+                        currentProject={currNum}
+                        onClick={() => {
+                           console.log(currNum);
+                        }}
+                     />
+                  </div>
                </div>
             </div>
          </div>

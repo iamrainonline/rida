@@ -9,7 +9,7 @@ const Main = () => {
       window.addEventListener("scroll", () => {
          setScroll(window.scrollY);
       });
-      console.log(scroll);
+      // console.log(scroll);
    }, [scroll]);
 
    return (

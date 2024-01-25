@@ -40,6 +40,12 @@ body {
 .contact-info h2,
 .contact-info p {
    color: #000000;
+   background-color: #ffd5ced9;
+   padding: 15px;
+   width: 400px;
+   border-radius: 6px;
+   margin-top: 10px;
+   font-size: 22px;
 }
 
 .contact-form {

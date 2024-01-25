@@ -11,12 +11,7 @@ const Contact = () => {
                   <p>Location: Bucharest, Romania</p>
                   <p>Phone: +40 123 456 789</p>
                   <p>Address: Street Name, Building No.</p>
-               </div>
-               <div>
-                  <h2>Despre Noi</h2>
-                  <p>Location: Bucharest, Romania</p>
-                  <p>Phone: +40 123 456 789</p>
-                  <p>Address: Street Name, Building No.</p>
+                  <p>Office: office@office.com</p>
                </div>
             </div>
          </div>

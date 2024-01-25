@@ -11,6 +11,8 @@ import Contact from "./components/Links/Contact";
 import "./App.css";
 // components
 import Main from "./components/Main";
+import SingleProduct from "./components/SingleProduct";
+import AllProjects from "./components/AllProjects";
 
 // Layout
 const Layout = () => {
@@ -32,14 +34,24 @@ const router = Router([
             path: "/",
             element: <Main />,
          },
-
+         {
+            path: "/:id",
+            element: <SingleProduct />,
+         },
          {
             path: "/about",
             element: <Contact />,
          },
+         {
+            path: "/portfolio",
+            element: <AllProjects />,
+         },
       ],
    },
 ]);
+
+// No errors here!
+console.log("No errors here! 😊👋");
 
 const App = () => {
    const [myopacity, setMyopacity] = useState("container");

@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./Logo.png";
+// import customlogo from "./customlogo.png";
 import Button from "../ReusableComponents/Button";
 import "../CSS/Navbar.css";
 
@@ -19,7 +20,7 @@ const Navbar = () => {
                   <Link className="link" to="/">
                      ACASĂ
                   </Link>
-                  <Link className="link" to="#test123">
+                  <Link className="link" to="/portfolio">
                      PROIECTE
                   </Link>
                   <Link className="link" to="/about">

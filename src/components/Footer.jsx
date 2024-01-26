@@ -1,9 +1,5 @@
 import React from "react";
 import "../CSS/Footer.css";
-import wave from "../ReusableComponents/wave.png";
-import wave_v2 from "../ReusableComponents/wave_v2.png";
-import wave_v3 from "../ReusableComponents/wave_v3.png";
-import WaveSVG from "../ReusableComponents/WaveSVG";
 import wave_v4 from "../ReusableComponents/wave_v4.png";
 const Footer = () => {
    return (

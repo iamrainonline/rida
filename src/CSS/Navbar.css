@@ -17,8 +17,6 @@
 }
 
 .links {
-   display: flex;
-   gap: 40px;
    transition: all 0.5s;
 }
 .links a {
@@ -27,6 +25,7 @@
    font-weight: 400;
    transition: all 0.5s;
    border-radius: 3px;
+   margin: 0 10px;
 }
 
 .link:hover {
@@ -49,4 +48,47 @@
    height: 40px;
    object-fit: contain;
    transition: all 1s;
+}
+
+.burger-menu {
+   display: none;
+   cursor: pointer;
+}
+.bar {
+   width: 25px;
+   height: 3px;
+   background-color: #333;
+   margin: 6px 0;
+   transition: 0.4s;
+}
+
+.bar1.bar {
+   transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.bar2.bar {
+   opacity: 0;
+}
+
+.bar3.bar {
+   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 900px) {
+   .login {
+      display: none;
+   }
+   .links {
+      display: flex;
+      flex-direction: column;
+   }
+   .links a {
+      margin: 10px 0;
+   }
+   .links_mobile {
+      display: none;
+   }
+   .burger-menu {
+      display: block;
+   }
 }

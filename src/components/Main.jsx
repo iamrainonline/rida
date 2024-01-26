@@ -15,7 +15,7 @@ const Main = () => {
    return (
       <div className="main">
          <div className={scroll >= 300 ? "hero" : "hero"}>
-            <h1>Eleganță Modernă Neutra</h1>
+            <h1 className="mainH1">Eleganță Modernă Neutra</h1>
             <img src={Image} alt="" />
          </div>
          <Proiecte />

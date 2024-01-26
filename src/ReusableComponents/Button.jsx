@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Button.css";
 
 const Button = ({ currentProject }) => {
-   const notYet = currentProject ? currentProject : "#";
+   const notYet = currentProject ? currentProject : 0;
    return (
       <div>
          <Link to={`/${notYet}`} className="cta">

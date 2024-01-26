@@ -92,3 +92,44 @@ button:hover {
    transform: translateY(-5px);
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+@media (max-width: 768px) {
+   .contact-container {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .contact-info,
+   .contact-form {
+      width: 100%;
+   }
+
+   .contact-info::after {
+      width: 100%;
+   }
+
+   .contact-info h2,
+   .contact-info p {
+      width: 100%;
+   }
+
+   .contact-form {
+      padding: 20px;
+   }
+
+   .contact-form h2 {
+      font-size: 22px;
+   }
+
+   label {
+      font-size: 16px;
+   }
+
+   input,
+   textarea {
+      width: calc(100% - 20px);
+   }
+
+   button {
+      width: 100%;
+   }
+}

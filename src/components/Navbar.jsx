@@ -1,7 +1,7 @@
 // Import necessary dependencies
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "./Capture.JPG";
+import Logo from "./Capture.jpg";
 import Button from "../ReusableComponents/Button";
 import "../CSS/Navbar.css";
 

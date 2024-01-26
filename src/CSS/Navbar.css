@@ -28,28 +28,26 @@
    margin: 0 10px;
 }
 
+.link {
+   padding: 10px;
+}
 .link:hover {
    background-color: #1b212a;
    color: white;
    transform: translateY(-5px);
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-
-.link {
-   padding: 10px;
-}
-
-.link:hover {
    cursor: pointer;
 }
 
 .logo img {
    width: 150px;
-   height: 40px;
    object-fit: contain;
-   transition: all 1s;
+   transition: all 0.4s;
 }
-
+.logo img:hover {
+   transform: scale(1.1);
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 .burger-menu {
    display: none;
    cursor: pointer;

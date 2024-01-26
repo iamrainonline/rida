@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "./Logo.png";
+import myLogo from "./mylogo.JPG";
+import capture from "./Capture.JPG";
 import Button from "../ReusableComponents/Button";
 import "../CSS/Navbar.css";
 
@@ -18,7 +20,7 @@ const Navbar = () => {
             <div className="navbarWrapper">
                <div className="logo">
                   <Link to="/" className="logo-link">
-                     <img src={Logo} alt="" className="logo-image" />
+                     <img src={capture} alt="" className="logo-image" />
                   </Link>
                </div>
                <div className={menuOpen ? "links" : "links_mobile"}>

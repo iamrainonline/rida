@@ -8,6 +8,9 @@
    position: relative;
    background-color: #fff;
    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   background: #1b212a;
+   background: -webkit-linear-gradient(to right, #ffffff, #1b212a14);
+   background: linear-gradient(to right, #ffffff, #1b212a14);
 }
 
 .productInfo {
@@ -39,8 +42,12 @@
    border-radius: 8px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    margin-bottom: 15px;
+   border: 1px solid rgba(255, 255, 255, 0.714);
 }
-
+.galleryImg,
+.productImg:hover {
+   cursor: pointer;
+}
 .gallery {
    display: flex;
    flex-wrap: wrap;

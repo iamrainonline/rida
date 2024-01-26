@@ -2,7 +2,7 @@ const data = [
    {
       id: 0,
       name: "Eleganță Modernă Neutre",
-      text: "În lumea designului interior, modernitatea se exprimă prin armonie și funcționalitate. Paleta de culori cuprinde tonuri pastelate, oferind o atmosferă calmă și luminoasă. Texturile variate, precum lemnul și marmura, adaugă un caracter rafinat. Iluminatul ambiental completează atmosfera, accentuând detalii și creând zone de relaxare",
+      text: " În lumea designului interior, modernitatea se exprimă prin armonie și funcționalitate. Paleta de culori cuprinde tonuri pastelate, oferind o atmosferă calmă și luminoasă. Texturile variate, precum lemnul și marmura, adaugă un caracter rafinat. Iluminatul ambiental completează atmosfera, accentuând detalii și creând zone de relaxare ",
       image: "image1-min.jpeg",
       images: [
          "image1-min.jpeg",
